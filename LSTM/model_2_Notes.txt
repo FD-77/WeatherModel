@@ -1,5 +1,6 @@
 1. Horizon=30
 Window Size= 60
+Epochs=10
 Lowest val loss
 Epoch 9/10
 1438/1438 ━━━━━━━━━━━━━━━━━━━━ 52s 36ms/step - loss: 60.9911 - root_mean_squared_error: 7.8097 - val_loss: 62.5155 - val_root_mean_squared_error: 7.9067
@@ -9,6 +10,7 @@ Epoch 10/10
 
 2. Horizon=7
 Window Size=30
+Epochs=10
 Lowest val loss
 Epoch 9/10
 1438/1438 ━━━━━━━━━━━━━━━━━━━━ 24s 16ms/step - loss: 59.1986 - root_mean_squared_error: 7.6941 - val_loss: 57.2503 - val_root_mean_squared_error: 7.5664
@@ -18,6 +20,7 @@ Epoch 9/10
 
 3. Horizon= 7
 Window Size=7
+Epochs=10
 Lowest val loss
 Epoch 9/10
 1438/1438 ━━━━━━━━━━━━━━━━━━━━ 10s 7ms/step - loss: 62.3862 - root_mean_squared_error: 7.8985 - val_loss: 61.0467 - val_root_mean_squared_error: 7.8132
@@ -25,7 +28,7 @@ Lowest root_mean_squared_error
 Epoch 10/10
 1438/1438 ━━━━━━━━━━━━━━━━━━━━ 10s 7ms/step - loss: 62.2640 - root_mean_squared_error: 7.8908 - val_loss: 61.0883 - val_root_mean_squared_error: 7.8159
 
-3. Horizon=15 
+4. Horizon=15 
 Window Size=30
 Epochs=10
 
@@ -37,15 +40,37 @@ Epoch 10/10
 1438/1438 ━━━━━━━━━━━━━━━━━━━━ 25s 17ms/step - loss: 67.4637 - root_mean_squared_error: 8.2136 - val_loss: 66.8310 - val_root_mean_squared_error: 8.1750
 
 
-3. Horizon= 
-Window Size=
+5. Horizon= 7
+Window Size=30
+Epochs=20
+Lowest val loss
+Epoch 20/20
+1438/1438 ━━━━━━━━━━━━━━━━━━━━ 25s 17ms/step - loss: 57.9897 - root_mean_squared_error: 7.6151 - val_loss: 57.9485 - val_root_mean_squared_error: 7.6124
+Lowest root_mean_squared_error
+Epoch 20/20
+1438/1438 ━━━━━━━━━━━━━━━━━━━━ 25s 17ms/step - loss: 57.9897 - root_mean_squared_error: 7.6151 - val_loss: 57.9485 - val_root_mean_squared_error: 7.6124
+
+
+6. Horizon= 30
+Window Size=60
 Epochs=20
 
 Lowest val loss
-
+Epoch 19/20
+1438/1438 ━━━━━━━━━━━━━━━━━━━━ 51s 35ms/step - loss: 59.9791 - root_mean_squared_error: 7.7446 - val_loss: 62.0708 - val_root_mean_squared_error: 7.8785
 Lowest root_mean_squared_error
+Epoch 20/20
+1438/1438 ━━━━━━━━━━━━━━━━━━━━ 52s 36ms/step - loss: 59.9768 - root_mean_squared_error: 7.7445 - val_loss: 63.2914 - val_root_mean_squared_error: 7.9556
 
-
+3. Horizon= 
+Window Size=
+Epochs=
+Lowest val loss
+Epoch 24/30
+1438/1438 ━━━━━━━━━━━━━━━━━━━━ 23s 16ms/step - loss: 57.7226 - root_mean_squared_error: 7.5975 - val_loss: 56.5995 - val_root_mean_squared_error: 7.5233
+Lowest root_mean_squared_error
+Epoch 30/30
+1438/1438 ━━━━━━━━━━━━━━━━━━━━ 23s 16ms/step - loss: 57.5005 - root_mean_squared_error: 7.5829 - val_loss: 57.0479 - val_root_mean_squared_error: 7.5530
 
 3. Horizon= 
 Window Size=
@@ -53,4 +78,3 @@ Window Size=
 Lowest val loss
 
 Lowest root_mean_squared_error
-

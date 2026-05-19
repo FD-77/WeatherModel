@@ -24,8 +24,8 @@ Epoch 10/10
 
 4. WindowSize=90, Epochs: 10
 Lowest root mean squared error
-Epoch 10/10
-1438/1438 ━━━━━━━━━━━━━━━━━━━━ 29s 20ms/step - loss: 29.3480 - root_mean_squared_error: 5.4174 - val_loss: 27.9245 - val_root_mean_squared_error: 5.2844
+Epoch 9/10
+1438/1438 ━━━━━━━━━━━━━━━━━━━━ 29s 20ms/step - loss: 29.4096 - root_mean_squared_error: 5.4231 - val_loss: 27.3018 - val_root_mean_squared_error: 5.2251
 Lowest val loss
 Epoch 9/10
 1438/1438 ━━━━━━━━━━━━━━━━━━━━ 29s 20ms/step - loss: 29.4096 - root_mean_squared_error: 5.4231 - val_loss: 27.3018 - val_root_mean_squared_error: 5.2251
@@ -38,7 +38,13 @@ Lowest val loss
 Epoch 20/20
 1438/1438 ━━━━━━━━━━━━━━━━━━━━ 19s 13ms/step - loss: 29.3610 - root_mean_squared_error: 5.4186 - val_loss: 27.5470 - val_root_mean_squared_error: 5.2485
 
-
+6. WindowSize=90, Epochs=20
+Lowesty root_mean_squared_error
+Epoch 20/20
+1438/1438 ━━━━━━━━━━━━━━━━━━━━ 31s 21ms/step - loss: 29.1482 - root_mean_squared_error: 5.3989 - val_loss: 27.1158 - val_root_mean_squared_error: 5.2073
+Lowest val loss
+Epoch 20/20
+1438/1438 ━━━━━━━━━━━━━━━━━━━━ 31s 21ms/step - loss: 29.1482 - root_mean_squared_error: 5.3989 - val_loss: 27.1158 - val_root_mean_squared_error: 5.2073
 Trying to predict the next year.
 1. After about 50 predictions, the predictions kinda plateiued
 [58.         63.         62.         59.5        61.5        70.
