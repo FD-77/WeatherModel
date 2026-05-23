@@ -1,18 +1,22 @@
 # WeatherModel
 A model that predicts NYC weather 
 1. Problem
-    Predict NYC weather trends for next 10 years
+    Predict NYC weather trends for the next few years
 2. EDA
     Long-term climate patterns
     Seasonality insights
-3. Models
-    Baseline (linear / moving avg)
+3. Regression
+    Linear Regression
+    Polynomial Regression
+5. Models
+    Many-to-One LSTM Model
+    Encoder-Decoder LSTM Model
     Prophet
-4. Evaluation
+6. Evaluation
     Compare predictions vs real data
-5. Optimization
+7. Optimization
     Tune Prophet parameters
-6. Future Forecast
+8. Future Forecast
     10-year prediction
-7. Conclusion
+9. Conclusion
     What does this say about climate trends?
